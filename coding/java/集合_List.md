@@ -1,0 +1,13 @@
+# List
+### Vector,ArrayList,LinkedList区别和使用场景
+- ArrayList:底层是数组实现.线程不安全.查找和修改快(可以直接使用下标index查找和修改).增加和删除慢(增加涉及扩容.删除涉及元素移动)
+- LinkedList:底层是双向链表.查找和修改慢.增加和删除快.特性和ArrayList恰恰相反.关键是有前置节点和后置节点(节点可以快速增加和删除,设置节点指针的指向.查找和修改需要从头进行遍历找到node之后再做处理)
+- Vector:线程安全,方法使用synchronized加锁处理,但效率低,目前已经不常用
+
+### ArrayList若保证线程安全,可以怎么做?
+- 自己封装ArrayList实现一个类,方法上加锁
+- 操作加锁
+- 使用ThreadLocal
+- CopyOnWriteArrayList(方法内部使用了ReentrantLock加锁)
+
+### CopyOnWriteArrayList
