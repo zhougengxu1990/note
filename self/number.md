@@ -47,6 +47,7 @@
 - [appstorrent](https://appstorrent.ru/)
 - 游戏平台(GOG)
 - codeium(使用google账号登录,显示邮箱为hotmail无法更改)
+- steam(用于离线游戏)
 
 ### zhougengxu1990@hotmail.com
 - ~~Steam(添加了2fa,变得不好更换邮箱,暂时不换)~~ Steam账号已经注销
@@ -195,3 +196,7 @@
 - zhougengxu2009@163.com
 ### [xmfvpn](https://www.xmfvpn.com/)
 - zhougengxu2009@163.com
+
+### ikuuu.nl
+- zhougengxu2009@163.com
+    - 普通密码
