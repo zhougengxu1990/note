@@ -10,7 +10,7 @@ checkout或切换分支
 
 ### status
 ```
-lazyGit status
+lazygit status
 
 # p
 pull
