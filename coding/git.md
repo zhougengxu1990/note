@@ -324,6 +324,11 @@ git tag -a <tagname> [commit hash]
  这样会从 tag 创建一个分支，然后就和普通的 git 操作一样了。
 其实要取得不同的branch的tag，只需要在相应的分支上打tag就行了。这样的tag就唯一对应了不同的分支。例如，你在master上打了tag为v1，在某个branch上打了tag为v2，则你取出v2代码的时候，自然就是对应的branch分支了
 
+### other
+```
+# 永久保存？
+git config --global credential.helper store
+```
 ## github
 
 ## gitlab
